@@ -82,6 +82,8 @@ let cart = [];
 let count = 0;
 function addCart(item){
 cart.push(item);
+count++;
+document.getElementById("cart").innerHTML="🛒 Cart ("+count+")";
 alert(item + " Added to Cart");
 }
 
