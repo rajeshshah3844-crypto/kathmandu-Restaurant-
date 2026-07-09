@@ -120,12 +120,12 @@ section img{
  margin-bottom:40px;
 #cart{
 position:fixed;
-top:80px;
+top:70px;
 right:10px;
 background:green;
 color:white;
-padding:8px 15px;
-border-radius:20px;
-font-size:16px;
+padding:10px 15px;
+border-radius:25px;
+font-size:18px;
 z-index:9999;
 }
