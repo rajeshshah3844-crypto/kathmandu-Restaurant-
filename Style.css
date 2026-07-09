@@ -118,17 +118,14 @@ section img{
 
 .menu{
  margin-bottom:40px;
-}
-
-
 #cart{
 position:fixed;
-top:80px;
-right:10px;
+top:90px;
+right:2px;
 background:green;
 color:white;
-padding:10px 15px;
+padding:6px 10px;
 border-radius:20px;
-font-size:18px;
+font-size:15px;
 z-index:999;
 }
