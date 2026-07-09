@@ -77,5 +77,20 @@
 style="background:green;color:white;padding:15px;border-radius:10px;text-decoration:none;">
 Order on WhatsApp
 </a>
+<script>
+let cart = [];
+
+function addCart(item){
+cart.push(item);
+alert(item + " Added to Cart");
+}
+
+function sendOrder(){
+let msg = cart.join(", ");
+window.open("https://wa.me/918866222298?text=Order:%20"+msg);
+}
+</script>
+
+<button onclick="sendOrder()">Send Order WhatsApp</button>
 </body>
 </html>
