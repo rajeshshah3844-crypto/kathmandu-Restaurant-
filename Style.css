@@ -129,3 +129,14 @@ border-radius:20px;
 font-size:15px;
 z-index:999;
 }
+#cart{
+position:fixed;
+top:100px;
+right:5px;
+background:green;
+color:white;
+padding:5px 8px;
+border-radius:18px;
+font-size:13px;
+z-index:999;
+}
