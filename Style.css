@@ -119,3 +119,14 @@ section img{
 .menu{
  margin-bottom:40px;
 }
+#cart{
+position:fixed;
+top:10px;
+right:10px;
+background:green;
+color:white;
+padding:10px 15px;
+border-radius:20px;
+font-size:18px;
+z-index:999;
+}
