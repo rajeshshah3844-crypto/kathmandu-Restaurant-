@@ -167,23 +167,26 @@ background:white;
 height:150px;
 width:130px;
 border-radius:10px;
-padding:15px;
+padding:10px;
 box-shadow:0 0 5px #aaa;
 position:relative;
+text-align:center;
 }
 
 .food h3{
-font-size:20px;
+font-size:18px;
+margin:5px;
 }
 
 .food button{
 position:absolute;
-right:10px;
+right:35px;
 bottom:10px;
 border-radius:50%;
 width:45px;
 height:45px;
 font-size:30px;
+}
 color:white;
 background:#d93655;
 border:0;
