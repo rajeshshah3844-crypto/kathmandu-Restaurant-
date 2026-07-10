@@ -153,11 +153,13 @@ margin:20px;
 border-radius:8px;
 }
 
-.items{justify-items:center;
+.items{
 display:grid;
 grid-template-columns:repeat(2,1fr);
 gap:15px;
 padding:15px;
+justify-items:center;
+}
 }
 
 .food{
