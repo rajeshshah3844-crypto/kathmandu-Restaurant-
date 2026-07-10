@@ -98,6 +98,31 @@ window.open("https://wa.me/918866222298?text=Order:%20"+msg);
 </script>
 
 <button onclick="sendOrder()">Send Order WhatsApp</button>
+<script>
+let cart = [];
+
+function addToCart(item, price){
+  cart.push(item + " ₹" + price);
+  document.getElementById("cart").innerHTML =
+  "🛒 Cart (" + cart.length + ")";
+}
+
+function sendWhatsApp(){
+  if(cart.length == 0){
+    alert("Cart empty hai");
+    return;
+  }
+
+  let message = "Kathmandu Restaurant Order:%0A%0A";
+  cart.forEach(function(item){
+    message += "🍽️ " + item + "%0A";
+  });
+
+  window.open(
+    "https://wa.me/918866222298?text=" + message
+  );
+}
+</script>
 </body>
 
 </html>
