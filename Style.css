@@ -119,13 +119,13 @@ section img{
 .menu{
  margin-bottom:40px;
 #cart{
-position:fixed;
-top:80px;
-right:15px;
-background:green;
-color:white;
-padding:12px 18px;
-border-radius:25px;
-font-size:18px;
-z-index:9999;
+  position:fixed;
+  top:80px;
+  right:15px;
+  background:green;
+  color:white;
+  padding:12px 20px;
+  border-radius:25px;
+  font-size:18px;
+  z-index:9999;
 }
