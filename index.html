@@ -25,28 +25,50 @@
 <img src="Logo.png" width="160">
 
 <br><br>
-<div class="menu">
-<h2>Our Menu</h2>
+<div class="tabs">
+<button>All</button>
+<button>VEG.</button>
+<button>PANEER</button>
+<button>CHINESE</button>
+</div>
 
-<h3>Veg Items</h3>
-<p>Mix Veg - ₹110 
-<button onclick="addCart('Mix Veg ₹110')">Add to Cart</button>
-</p>
-<p>Chana Masala - ₹110</p>
-<p>Aloo Matar - ₹110</p>
-<p>Paneer Butter Masala - ₹170</p>
-<p>Paneer Tikka Masala - ₹160</p>
-<p>Paneer Kadai - ₹170</p>
+<input type="text" id="search" placeholder="🔍 Ex:-Paneer">
 
-<h3>Chicken Items</h3>
-<p>Chicken Chilli - ₹150</p>
-<p>Chicken 65 - ₹150</p>
-<p>Chicken Lollipop Dry - ₹120</p>
-<p>Chicken Lollipop Gravy - ₹140</p>
+<div class="items">
 
-<h3>Chinese Food</h3>
-<p>Veg Fried Rice - ₹120</p>
-<p>Veg Manchurian - ₹130</p>
+<div class="food">
+<h3>Kathmandu Spe. Veg</h3>
+<p>₹210</p>
+<button onclick="addToCart('Kathmandu Spe. Veg',210)">+</button>
+</div>
+
+<div class="food">
+<h3>Mix Veg</h3>
+<p>₹110</p>
+<button onclick="addToCart('Mix Veg',110)">+</button>
+</div>
+
+<div class="food">
+<h3>Chana Masala</h3>
+<p>₹110</p>
+<button onclick="addToCart('Chana Masala',110)">+</button>
+</div>
+
+<div class="food">
+<h3>Aloo Matar</h3>
+<p>₹110</p>
+<button onclick="addToCart('Aloo Matar',110)">+</button>
+</div>
+
+</div>
+
+<div id="bottomCart">
+Items: <span id="count">0</span> |
+₹<span id="total">0</span>
+
+<button onclick="sendWhatsApp()">Order WhatsApp</button>
+</div>
+
 
 </div>
 
