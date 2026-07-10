@@ -220,3 +220,32 @@ border-radius:50% !important;
 width:45px !important;
 height:45px !important;
 }
+.items{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+padding:15px;
+}
+
+.food{
+background:white;
+border-radius:10px;
+padding:20px;
+min-height:150px;
+box-shadow:0 2px 5px #aaa;
+text-align:center;
+}
+
+.food h3{
+font-size:22px;
+}
+
+.food button{
+background:#ff9800;
+color:white;
+border:none;
+border-radius:50%;
+width:55px;
+height:55px;
+font-size:30px;
+}
