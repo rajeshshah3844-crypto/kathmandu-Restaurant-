@@ -195,3 +195,28 @@ background:white;
 padding:10px;
 font-size:18px;
 }
+.food{
+background:white !important;
+height:150px !important;
+border-radius:12px !important;
+padding:15px !important;
+margin:10px !important;
+box-shadow:0 0 8px #999 !important;
+position:relative !important;
+}
+
+.items{
+display:grid !important;
+grid-template-columns:1fr 1fr !important;
+gap:10px !important;
+}
+
+.food button{
+position:absolute !important;
+right:10px !important;
+bottom:10px !important;
+background:#d93655 !important;
+border-radius:50% !important;
+width:45px !important;
+height:45px !important;
+}
