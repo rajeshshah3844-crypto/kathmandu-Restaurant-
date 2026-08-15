@@ -57,21 +57,20 @@ Fresh & Delicious Food Delivered Fast
 
 <div class="tabs">
 
-<button onclick="filterFood('all')">
-All
-</button>
+<button onclick="filterFood('all')">All</button>
+<button onclick="filterFood('veg')">Veg</button>
+<button onclick="filterFood('paneer')">Paneer</button>
+<button onclick="filterFood('chicken')">Chicken</button>
+<button onclick="filterFood('egg')">Egg</button>
+<button onclick="filterFood('biryani')">Biryani</button>
+<button onclick="filterFood('cheese')">Cheese</button>
+<button onclick="filterFood('roti')">Roti</button>
+<button onclick="filterFood('chinese')">Chinese</button>
+<button onclick="filterFood('breakfast')">Breakfast</button>
 
-<button onclick="filterFood('veg')">
-Veg
-</button>
+<button onclick="filterFood('combo')">Combo</button>
 
-<button onclick="filterFood('paneer')">
-Paneer
-</button>
-
-<button onclick="filterFood('chinese')">
-Chinese
-</button>
+<button onclick="filterFood('drinks')">Drinks</button>
 
 </div>
 
@@ -86,7 +85,7 @@ placeholder="🔍 Search Food">
   <!-- MIX VEG -->
 
 <div class="food veg">
-<img src="mix-veg.png" alt="Mix Veg">
+<img src="Mix-Veg.png" alt="Mix Veg">
 
 <div class="food-content">
 <h3>Mix Veg</h3>
@@ -144,8 +143,186 @@ placeholder="🔍 Search Food">
 </div>
 </div>
 </div>
+<!-- BHINDI MASALA -->
+<div class="food veg">
+<img src="Bhindi-Masala.png" alt="Bhindi Masala">
+<div class="food-content">
+<h3>Bhindi Masala</h3>
+<p class="price">₹110</p>
+<div class="qty">
+<button onclick="changeQty('Bhindi Masala',110,-1)">−</button>
+<span id="qty-Bhindi Masala">0</span>
+<button onclick="changeQty('Bhindi Masala',110,1)">+</button>
+</div>
+</div>
+</div>
 
+<!-- BHINDI FRY -->
+<div class="food veg">
+<img src="Bhindi-Fry.png" alt="Bhindi Fry">
+<div class="food-content">
+<h3>Bhindi Fry</h3>
+<p class="price">₹110</p>
+<div class="qty">
+<button onclick="changeQty('Bhindi Fry',110,-1)">−</button>
+<span id="qty-Bhindi Fry">0</span>
+<button onclick="changeQty('Bhindi Fry',110,1)">+</button>
+</div>
+</div>
+</div>
 
+<!-- VEG JAIPURI -->
+<div class="food veg">
+<img src="Veg-Jaipuri.png" alt="Veg Jaipuri">
+<div class="food-content">
+<h3>Veg Jaipuri</h3>
+<p class="price">₹130</p>
+<div class="qty">
+<button onclick="changeQty('Veg Jaipuri',130,-1)">−</button>
+<span id="qty-Veg Jaipuri">0</span>
+<button onclick="changeQty('Veg Jaipuri',130,1)">+</button>
+</div>
+</div>
+</div>
+
+<!-- VEG HYDERABADI -->
+<div class="food veg">
+<img src="Veg-Hyderabadi.png" alt="Veg Hyderabadi">
+<div class="food-content">
+<h3>Veg Hyderabadi</h3>
+<p class="price">₹120</p>
+<div class="qty">
+<button onclick="changeQty('Veg Hyderabadi',120,-1)">−</button>
+<span id="qty-Veg Hyderabadi">0</span>
+<button onclick="changeQty('Veg Hyderabadi',120,1)">+</button>
+</div>
+</div>
+</div>
+
+<!-- VEG KADAI -->
+<div class="food veg">
+<img src="Veg-Kadai.png" alt="Veg Kadai">
+<div class="food-content">
+<h3>Veg Kadai</h3>
+<p class="price">₹120</p>
+<div class="qty">
+<button onclick="changeQty('Veg Kadai',120,-1)">−</button>
+<span id="qty-Veg Kadai">0</span>
+<button onclick="changeQty('Veg Kadai',120,1)">+</button>
+</div>
+</div>
+</div>
+<!-- VEG ANGARA -->
+<div class="food veg">
+  <img src="Veg-Angara.png" alt="Veg Angara">
+
+  <div class="food-content">
+    <h3>Veg Angara</h3>
+    <p class="price">₹130</p>
+
+    <div class="qty">
+      <button onclick="changeQty('Veg Angara',130,-1)">−</button>
+      <span id="qty-Veg Angara">0</span>
+      <button onclick="changeQty('Veg Angara',130,1)">+</button>
+    </div>
+  </div>
+</div>
+<!-- SEV TOMATO -->
+<div class="food veg">
+  <img src="Sev-Tomato.png" alt="Sev Tomato">
+
+  <div class="food-content">
+    <h3>Sev Tomato</h3>
+    <p class="price">₹100</p>
+
+    <div class="qty">
+      <button onclick="changeQty('Sev Tomato',100,-1)">−</button>
+      <span id="qty-Sev Tomato">0</span>
+      <button onclick="changeQty('Sev Tomato',100,1)">+</button>
+    </div>
+  </div>
+</div>
+<!-- SEV MASALA -->
+<div class="food veg">
+  <img src="Sev-Masala.png" alt="Sev Masala">
+
+  <div class="food-content">
+    <h3>Sev Masala</h3>
+    <p class="price">₹100</p>
+
+    <div class="qty">
+      <button onclick="changeQty('Sev Masala',100,-1)">−</button>
+      <span id="qty-Sev Masala">0</span>
+      <button onclick="changeQty('Sev Masala',100,1)">+</button>
+    </div>
+  </div>
+</div>
+<!-- VEG KOLHAPURI -->
+<div class="food veg">
+  <img src="Veg-Kolhapuri.png" alt="Veg Kolhapuri">
+
+  <div class="food-content">
+    <h3>Veg Kolhapuri</h3>
+    <p class="price">₹130</p>
+
+    <div class="qty">
+      <button onclick="changeQty('Veg Kolhapuri',130,-1)">−</button>
+      <span id="qty-Veg Kolhapuri">0</span>
+      <button onclick="changeQty('Veg Kolhapuri',130,1)">+</button>
+    </div>
+  </div>
+</div>
+<!-- KATHMANDU SPECIAL VEG -->
+<div class="food veg kathmandu-special">
+  <img src="Kathmandu-Special-Veg.png" alt="Kathmandu Special Veg">
+
+  <div class="food-content">
+    <h3>Kathmandu Special Veg</h3>
+    <p class="price">₹200</p>
+
+    <div class="qty">
+      <button onclick="changeQty('Kathmandu Special Veg',200,-1)">−</button>
+      <span id="qty-Kathmandu Special Veg">0</span>
+      <button onclick="changeQty('Kathmandu Special Veg',200,1)">+</button>
+    </div>
+  </div>
+</div>
+<!-- KATHMANDU SPECIAL PANEER -->
+<div class="food paneer kathmandu-special">
+  <img src="Kathmandu-Special-Paneer.png" alt="Kathmandu Special Paneer">
+
+  <div class="food-content">
+    <h3>Kathmandu Special Paneer</h3>
+
+    <p class="price">₹250</p>
+
+    <div class="qty">
+      <button onclick="changeQty('Kathmandu Special Paneer',250,-1)">−</button>
+
+      <span id="qty-Kathmandu Special Paneer">0</span>
+
+      <button onclick="changeQty('Kathmandu Special Paneer',250,1)">+</button>
+    </div>
+  </div>
+</div>
+<!-- MATAR PANEER -->
+<div class="food paneer">
+    <img src="Matar-Paneer.png" alt="Matar Paneer">
+
+    <div class="food-content">
+        <h3>Matar Paneer</h3>
+
+        <p class="price">₹140</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Matar Paneer',140,-1)">−</button>
+
+            <span id="qty-Matar Paneer">0</span>
+
+            <button onclick="changeQty('Matar Paneer',140,1)">+</button>
+        </div>
+    </div>
+</div>
 <!-- PANEER BUTTER MASALA -->
 
 <div class="food paneer">
@@ -186,8 +363,1175 @@ placeholder="🔍 Search Food">
 </div>
 </div>
 </div>
+<!-- PANEER LABABDAR -->
+<div class="food paneer">
+    <img src="Paneer-Lababdar.png" alt="Paneer Lababdar">
+
+    <div class="food-content">
+        <h3>Paneer Lababdar</h3>
+
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Lababdar',170,-1)">−</button>
+
+            <span id="qty-Paneer Lababdar">0</span>
+
+            <button onclick="changeQty('Paneer Lababdar',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- SHAHI PANEER -->
+<div class="food paneer">
+    <img src="Shahi-Paneer.png" alt="Shahi Paneer">
+
+    <div class="food-content">
+        <h3>Shahi Paneer</h3>
+
+        <p class="price">₹160</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Shahi Paneer',160,-1)">−</button>
+
+            <span id="qty-Shahi Paneer">0</span>
+
+            <button onclick="changeQty('Shahi Paneer',160,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER LAJEEZ -->
+<div class="food paneer">
+    <img src="Paneer-Lajeez.png" alt="Paneer Lajeez">
+
+    <div class="food-content">
+        <h3>Paneer Lajeez</h3>
+
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Lajeez',170,-1)">−</button>
+
+            <span id="qty-Paneer Lajeez">0</span>
+
+            <button onclick="changeQty('Paneer Lajeez',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER BHURJI -->
+<div class="food paneer">
+    <img src="Paneer-Bhurji.png" alt="Paneer Bhurji">
+
+    <div class="food-content">
+        <h3>Paneer Bhurji</h3>
+
+        <p class="price">₹190</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Bhurji',190,-1)">−</button>
+
+            <span id="qty-Paneer Bhurji">0</span>
+
+            <button onclick="changeQty('Paneer Bhurji',190,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER BALTI -->
+<div class="food paneer">
+    <img src="Paneer-Balti.png" alt="Paneer Balti">
+
+    <div class="food-content">
+        <h3>Paneer Balti</h3>
+
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Balti',170,-1)">−</button>
+
+            <span id="qty-Paneer Balti">0</span>
+
+            <button onclick="changeQty('Paneer Balti',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER KADAI -->
+<div class="food paneer">
+    <img src="Paneer-Kadai.png" alt="Paneer Kadai">
+
+    <div class="food-content">
+        <h3>Paneer Kadai</h3>
+
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Kadai',170,-1)">−</button>
+
+            <span id="qty-Paneer Kadai">0</span>
+
+            <button onclick="changeQty('Paneer Kadai',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER ANGARA -->
+<div class="food paneer">
+    <img src="Paneer-Angara.png" alt="Paneer Angara">
+
+    <div class="food-content">
+        <h3>Paneer Angara</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Angara',180,-1)">−</button>
+
+            <span id="qty-Paneer Angara">0</span>
+
+            <button onclick="changeQty('Paneer Angara',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PALAK PANEER -->
+<div class="food paneer">
+    <img src="Palak-Paneer.png" alt="Palak Paneer">
+
+    <div class="food-content">
+        <h3>Palak Paneer</h3>
+
+        <p class="price">₹160</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Palak Paneer',160,-1)">−</button>
+
+            <span id="qty-Palak Paneer">0</span>
+
+            <button onclick="changeQty('Palak Paneer',160,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER KOLHAPURI -->
+<div class="food paneer">
+    <img src="Paneer-Kolhapuri.png" alt="Paneer Kolhapuri">
+
+    <div class="food-content">
+        <h3>Paneer Kolhapuri</h3>
+
+        <p class="price">₹160</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Kolhapuri',160,-1)">−</button>
+
+            <span id="qty-Paneer Kolhapuri">0</span>
+
+            <button onclick="changeQty('Paneer Kolhapuri',160,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- KATHMANDU SPECIAL CHICKEN -->
+<div class="food chicken kathmandu-special">
+    <img src="Kathmandu-Special-Chicken.png" alt="Kathmandu Special Chicken">
+
+    <div class="food-content">
+        <h3>Kathmandu Special Chicken</h3>
+
+        <p class="price">₹280</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Kathmandu Special Chicken',280,-1)">−</button>
+
+            <span id="qty-Kathmandu Special Chicken">0</span>
+
+            <button onclick="changeQty('Kathmandu Special Chicken',280,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN MASALA -->
+<div class="food chicken">
+    <img src="Chicken-Masala.png" alt="Chicken Masala">
+
+    <div class="food-content">
+        <h3>Chicken Masala</h3>
+
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Masala',170,-1)">−</button>
+
+            <span id="qty-Chicken Masala">0</span>
+
+            <button onclick="changeQty('Chicken Masala',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN KADAI -->
+<div class="food chicken">
+    <img src="Chicken-Kadai.png" alt="Chicken Kadai">
+
+    <div class="food-content">
+        <h3>Chicken Kadai</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Kadai',180,-1)">−</button>
+
+            <span id="qty-Chicken Kadai">0</span>
+
+            <button onclick="changeQty('Chicken Kadai',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN BALTI -->
+<div class="food chicken">
+    <img src="Chicken-Balti.png" alt="Chicken Balti">
+
+    <div class="food-content">
+        <h3>Chicken Balti</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Balti',180,-1)">−</button>
+
+            <span id="qty-Chicken Balti">0</span>
+
+            <button onclick="changeQty('Chicken Balti',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN HANDI -->
+<div class="food chicken">
+    <img src="Chicken-Handi.png" alt="Chicken Handi">
+
+    <div class="food-content">
+        <h3>Chicken Handi</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Handi',180,-1)">−</button>
+
+            <span id="qty-Chicken Handi">0</span>
+
+            <button onclick="changeQty('Chicken Handi',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN HOME STYLE -->
+<div class="food chicken">
+    <img src="Chicken-Home-Style.png" alt="Chicken Home Style">
+
+    <div class="food-content">
+        <h3>Chicken Home Style</h3>
+
+        <p class="price">
+            Half ₹150 | Full ₹180
+        </p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Home Style Half',150,-1)">−</button>
+
+            <span id="qty-Chicken Home Style Half">0</span>
+
+            <button onclick="changeQty('Chicken Home Style Half',150,1)">+</button>
+        </div>
+
+        <div class="qty" style="margin-top:10px;">
+            <button onclick="changeQty('Chicken Home Style Full',180,-1)">−</button>
+
+            <span id="qty-Chicken Home Style Full">0</span>
+
+            <button onclick="changeQty('Chicken Home Style Full',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN LASUNI -->
+<div class="food chicken">
+    <img src="Chicken-Lasuni.png" alt="Chicken Lasuni">
+
+    <div class="food-content">
+        <h3>Chicken Lasuni</h3>
+
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Lasuni',170,-1)">−</button>
+
+            <span id="qty-Chicken Lasuni">0</span>
+
+            <button onclick="changeQty('Chicken Lasuni',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- BUTTER CHICKEN -->
+<div class="food chicken kathmandu-special">
+    <img src="Butter-Chicken.png" alt="Butter Chicken">
+
+    <div class="food-content">
+        <h3>Butter Chicken</h3>
+
+        <p class="price">
+            Half ₹170 | Full ₹230
+        </p>
+
+        <div class="qty">
+            <button onclick="changeQty('Butter Chicken Half',170,-1)">−</button>
+
+            <span id="qty-Butter Chicken Half">0</span>
+
+            <button onclick="changeQty('Butter Chicken Half',170,1)">+</button>
+        </div>
+
+        <div class="qty" style="margin-top:10px;">
+            <button onclick="changeQty('Butter Chicken Full',230,-1)">−</button>
+
+            <span id="qty-Butter Chicken Full">0</span>
+
+            <button onclick="changeQty('Butter Chicken Full',230,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN TIKKA MASALA -->
+<div class="food chicken">
+    <img src="Chicken-Tikka-Masala.png" alt="Chicken Tikka Masala">
+
+    <div class="food-content">
+        <h3>Chicken Tikka Masala</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Tikka Masala',180,-1)">−</button>
+
+            <span id="qty-Chicken Tikka Masala">0</span>
+
+            <button onclick="changeQty('Chicken Tikka Masala',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN LAJEEZ -->
+<div class="food chicken">
+    <img src="Chicken-Lajeez.png" alt="Chicken Lajeez">
+
+    <div class="food-content">
+        <h3>Chicken Lajeez</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Lajeez',180,-1)">−</button>
+
+            <span id="qty-Chicken Lajeez">0</span>
+
+            <button onclick="changeQty('Chicken Lajeez',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN KOLHAPURI -->
+<div class="food chicken">
+    <img src="Chicken-Kolhapuri.png" alt="Chicken Kolhapuri">
+
+    <div class="food-content">
+        <h3>Chicken Kolhapuri</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Kolhapuri',180,-1)">−</button>
+
+            <span id="qty-Chicken Kolhapuri">0</span>
+
+            <button onclick="changeQty('Chicken Kolhapuri',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- MAKHMALI CHICKEN MASALA -->
+<div class="food chicken">
+    <img src="Makhmali-Chicken-Masala.png" alt="Makhmali Chicken Masala">
+
+    <div class="food-content">
+        <h3>Makhmali Chicken Masala</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Makhmali Chicken Masala',180,-1)">−</button>
+
+            <span id="qty-Makhmali Chicken Masala">0</span>
+
+            <button onclick="changeQty('Makhmali Chicken Masala',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN BONELESS MASALA -->
+<div class="food chicken">
+    <img src="Chicken-Boneless-Masala.png" alt="Chicken Boneless Masala">
+
+    <div class="food-content">
+        <h3>Chicken Boneless Masala</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Boneless Masala',180,-1)">−</button>
+
+            <span id="qty-Chicken Boneless Masala">0</span>
+
+            <button onclick="changeQty('Chicken Boneless Masala',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN MUGHLAI -->
+<div class="food chicken">
+    <img src="Chicken-Mughlai.png" alt="Chicken Mughlai">
+
+    <div class="food-content">
+        <h3>Chicken Mughlai</h3>
+"
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Mughlai',180,-1)">−</button>
+
+            <span id="qty-Chicken Mughlai">0</span>
+
+            <button onclick="changeQty('Chicken Mughlai',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- EGG MASALA -->
+<div class="food egg">
+    <img src="Egg-Masala.png" alt="Egg Masala">
+
+    <div class="food-content">
+        <h3>Egg Masala</h3>
+
+        <p class="price">₹120</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Egg Masala',120,-1)">−</button>
+
+            <span id="qty-Egg Masala">0</span>
+
+            <button onclick="changeQty('Egg Masala',120,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- EGG CURRY -->
+<div class="food egg">
+    <img src="Egg-Curry.png" alt="Egg Curry">
+
+    <div class="food-content">
+        <h3>Egg Curry</h3>
+
+        <p class="price">₹110</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Egg Curry',110,-1)">−</button>
+
+            <span id="qty-Egg Curry">0</span>
+
+            <button onclick="changeQty('Egg Curry',110,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- OMELET -->
+<div class="food egg">
+    <img src="Omelet.png" alt="Omelet">
+
+    <div class="food-content">
+        <h3>Omelet</h3>
+
+        <p class="price">₹50</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Omelet',50,-1)">−</button>
+
+            <span id="qty-Omelet">0</span>
+
+            <button onclick="changeQty('Omelet',50,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- EGG BHURJI -->
+<div class="food egg">
+    <img src="Egg-Bhurji.png" alt="Egg Bhurji">
+
+    <div class="food-content">
+        <h3>Egg Bhurji</h3>
+
+        <p class="price">₹80</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Egg Bhurji',80,-1)">−</button>
+
+            <span id="qty-Egg Bhurji">0</span>
+
+            <button onclick="changeQty('Egg Bhurji',80,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- VEG PULAO -->
+<div class="food biryani">
+    <img src="Veg-Pulao.png" alt="Veg Pulao">
+
+    <div class="food-content">
+        <h3>Veg Pulao</h3>
+
+        <p class="price">₹120</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Veg Pulao',120,-1)">−</button>
+
+            <span id="qty-Veg Pulao">0</span>
+
+            <button onclick="changeQty('Veg Pulao',120,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHEESE PULAO -->
+<div class="food biryani">
+    <img src="Cheese-Pulao.png" alt="Cheese Pulao">
+
+    <div class="food-content">
+        <h3>Cheese Pulao</h3>
+
+        <p class="price">₹150</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Cheese Pulao',150,-1)">−</button>
+
+            <span id="qty-Cheese Pulao">0</span>
+
+            <button onclick="changeQty('Cheese Pulao',150,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER PULAO -->
+<div class="food biryani">
+    <img src="Paneer-Pulao.png" alt="Paneer Pulao">
+
+    <div class="food-content">
+        <h3>Paneer Pulao</h3>
+
+        <p class="price">₹150</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Pulao',150,-1)">−</button>
+
+            <span id="qty-Paneer Pulao">0</span>
+
+            <button onclick="changeQty('Paneer Pulao',150,1)">+</button>
+        </div>
+    </div>
+</div>
 
 
+<!-- GREEN PEAS PULAO -->
+<div class="food biryani">
+    <img src="Green-Peas-Pulao.png" alt="Green Peas Pulao">
+
+    <div class="food-content">
+        <h3>Green Peas Pulao</h3>
+
+        <p class="price">₹130</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Green Peas Pulao',130,-1)">−</button>
+
+            <span id="qty-Green Peas Pulao">0</span>
+
+            <button onclick="changeQty('Green Peas Pulao',130,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- JEERA RICE -->
+<div class="food biryani">
+    <img src="Jeera-Rice.png" alt="Jeera Rice">
+
+    <div class="food-content">
+        <h3>Jeera Rice</h3>
+
+        <p class="price">₹110</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Jeera Rice',110,-1)">−</button>
+
+            <span id="qty-Jeera Rice">0</span>
+
+            <button onclick="changeQty('Jeera Rice',110,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- STEAM RICE -->
+<div class="food biryani">
+    <img src="Steam-Rice.png" alt="Steam Rice">
+
+    <div class="food-content">
+        <h3>Steam Rice</h3>
+
+        <p class="price">₹100</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Steam Rice',100,-1)">−</button>
+
+            <span id="qty-Steam Rice">0</span>
+
+            <button onclick="changeQty('Steam Rice',100,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- VEG BIRYANI -->
+<div class="food biryani">
+    <img src="Veg-Biryani.png" alt="Veg Biryani">
+
+    <div class="food-content">
+        <h3>Veg Biryani</h3>
+
+        <p class="price">₹140</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Veg Biryani',140,-1)">−</button>
+
+            <span id="qty-Veg Biryani">0</span>
+
+            <button onclick="changeQty('Veg Biryani',140,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- VEG HYDERABADI BIRYANI -->
+<div class="food biryani">
+    <img src="Veg-Hyderabadi-Biryani.png" alt="Veg Hyderabadi Biryani">
+
+    <div class="food-content">
+        <h3>Veg Hyderabadi Biryani</h3>
+
+        <p class="price">₹150</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Veg Hyderabadi Biryani',150,-1)">−</button>
+
+            <span id="qty-Veg Hyderabadi Biryani">0</span>
+
+            <button onclick="changeQty('Veg Hyderabadi Biryani',150,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER BIRYANI -->
+<div class="food biryani">
+    <img src="Paneer-Biryani.png" alt="Paneer Biryani">
+
+    <div class="food-content">
+        <h3>Paneer Biryani</h3>
+
+        <p class="price">Half ₹140 | Full ₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Biryani Half',140,-1)">−</button>
+
+            <span id="qty-Paneer Biryani Half">0</span>
+
+            <button onclick="changeQty('Paneer Biryani Half',140,1)">+</button>
+        </div>
+
+        <div class="qty" style="margin-top:10px;">
+            <button onclick="changeQty('Paneer Biryani Full',180,-1)">−</button>
+
+            <span id="qty-Paneer Biryani Full">0</span>
+
+            <button onclick="changeQty('Paneer Biryani Full',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- EGG BIRYANI -->
+<div class="food biryani">
+    <img src="Egg-Biryani.png" alt="Egg Biryani">
+
+    <div class="food-content">
+        <h3>Egg Biryani</h3>
+
+        <p class="price">₹160</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Egg Biryani',160,-1)">−</button>
+
+            <span id="qty-Egg Biryani">0</span>
+
+            <button onclick="changeQty('Egg Biryani',160,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN BIRYANI -->
+<div class="food biryani">
+    <img src="Chicken-Biryani.png" alt="Chicken Biryani">
+
+    <div class="food-content">
+        <h3>Chicken Biryani</h3>
+
+        <p class="price">
+            Half ₹130 | Full ₹170
+        </p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Biryani Half',130,-1)">−</button>
+
+            <span id="qty-Chicken Biryani Half">0</span>
+
+            <button onclick="changeQty('Chicken Biryani Half',130,1)">+</button>
+        </div>
+
+        <div class="qty" style="margin-top:10px;">
+            <button onclick="changeQty('Chicken Biryani Full',170,-1)">−</button>
+
+            <span id="qty-Chicken Biryani Full">0</span>
+
+            <button onclick="changeQty('Chicken Biryani Full',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN HYDERABADI BIRYANI -->
+<div class="food biryani">
+    <img src="Chicken-Hyderabadi-Biryani.png" alt="Chicken Hyderabadi Biryani">
+
+    <div class="food-content">
+        <h3>Chicken Hyderabadi Biryani</h3>
+
+        <p class="price">Half ₹140 | Full ₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Hyderabadi Biryani Half',140,-1)">−</button>
+
+            <span id="qty-Chicken Hyderabadi Biryani Half">0</span>
+
+            <button onclick="changeQty('Chicken Hyderabadi Biryani Half',140,1)">+</button>
+        </div>
+
+        <div class="qty" style="margin-top:10px;">
+            <button onclick="changeQty('Chicken Hyderabadi Biryani Full',180,-1)">−</button>
+
+            <span id="qty-Chicken Hyderabadi Biryani Full">0</span>
+
+            <button onclick="changeQty('Chicken Hyderabadi Biryani Full',180,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHEESE BUTTER MASALA -->
+<div class="food cheese">
+    <img src="Cheese-Butter-Masala.png" alt="Cheese Butter Masala">
+
+    <div class="food-content">
+        <h3>Cheese Butter Masala</h3>
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Cheese Butter Masala',170,-1)">−</button>
+            <span id="qty-Cheese Butter Masala">0</span>
+            <button onclick="changeQty('Cheese Butter Masala',170,1)">+</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- CHEESE KAJU MASALA -->
+<div class="food cheese">
+    <img src="Cheese-Kaju-Masala.png" alt="Cheese Kaju Masala">
+
+    <div class="food-content">
+        <h3>Cheese Kaju Masala</h3>
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Cheese Kaju Masala',180,-1)">−</button>
+            <span id="qty-Cheese Kaju Masala">0</span>
+            <button onclick="changeQty('Cheese Kaju Masala',180,1)">+</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- CHEESE KAJU PANEER MASALA -->
+<div class="food cheese">
+    <img src="Cheese-Kaju-Paneer-Masala.png" alt="Cheese Kaju Paneer Masala">
+
+    <div class="food-content">
+        <h3>Cheese Kaju Paneer Masala</h3>
+        <p class="price">₹190</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Cheese Kaju Paneer Masala',190,-1)">−</button>
+            <span id="qty-Cheese Kaju Paneer Masala">0</span>
+            <button onclick="changeQty('Cheese Kaju Paneer Masala',190,1)">+</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- CHEESE PANEER MASALA -->
+<div class="food cheese">
+    <img src="Cheese-Paneer-Masala.png" alt="Cheese Paneer Masala">
+
+    <div class="food-content">
+        <h3>Cheese Paneer Masala</h3>
+        <p class="price">₹170</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Cheese Paneer Masala',170,-1)">−</button>
+            <span id="qty-Cheese Paneer Masala">0</span>
+            <button onclick="changeQty('Cheese Paneer Masala',170,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHEESE NAAN -->
+<div class="food roti">
+    <img src="Cheese-Naan.png" alt="Cheese Naan">
+
+    <div class="food-content">
+        <h3>Cheese Naan</h3>
+        <p class="price">₹70</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Cheese Naan',70,-1)">−</button>
+            <span id="qty-Cheese Naan">0</span>
+            <button onclick="changeQty('Cheese Naan',70,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHEESE GARLIC NAAN -->
+<div class="food roti">
+    <img src="Cheese-Garlic-Naan.png" alt="Cheese Garlic Naan">
+
+    <div class="food-content">
+        <h3>Cheese Garlic Naan</h3>
+        <p class="price">₹80</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Cheese Garlic Naan',80,-1)">−</button>
+            <span id="qty-Cheese Garlic Naan">0</span>
+            <button onclick="changeQty('Cheese Garlic Naan',80,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PLAIN NAAN -->
+<div class="food roti">
+    <img src="Plain-Naan.png" alt="Plain Naan">
+
+    <div class="food-content">
+        <h3>Plain Naan</h3>
+        <p class="price">₹35</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Plain Naan',35,-1)">−</button>
+            <span id="qty-Plain Naan">0</span>
+            <button onclick="changeQty('Plain Naan',35,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- BUTTER NAAN -->
+<div class="food roti">
+    <img src="Butter-Naan.png" alt="Butter Naan">
+
+    <div class="food-content">
+        <h3>Butter Naan</h3>
+        <p class="price">₹50</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Butter Naan',50,-1)">−</button>
+            <span id="qty-Butter Naan">0</span>
+            <button onclick="changeQty('Butter Naan',50,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PLAIN ROTI -->
+<div class="food roti">
+    <img src="Plain-Roti.png" alt="Plain Roti">
+
+    <div class="food-content">
+        <h3>Plain Roti</h3>
+        <p class="price">₹12</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Plain Roti',12,-1)">−</button>
+            <span id="qty-Plain Roti">0</span>
+            <button onclick="changeQty('Plain Roti',12,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- BUTTER ROTI -->
+<div class="food roti">
+    <img src="Butter-Roti.png" alt="Butter Roti">
+
+    <div class="food-content">
+        <h3>Butter Roti</h3>
+        <p class="price">₹15</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Butter Roti',15,-1)">−</button>
+            <span id="qty-Butter Roti">0</span>
+            <button onclick="changeQty('Butter Roti',15,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- TANDOORI ROTI -->
+<div class="food roti">
+    <img src="Tandoori-Roti.png" alt="Tandoori Roti">
+
+    <div class="food-content">
+        <h3>Tandoori Roti</h3>
+        <p class="price">₹15</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Tandoori Roti',15,-1)">−</button>
+            <span id="qty-Tandoori Roti">0</span>
+            <button onclick="changeQty('Tandoori Roti',15,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- BUTTER TANDOORI ROTI -->
+<div class="food roti">
+    <img src="Butter-Tandoori-Roti.png" alt="Butter Tandoori Roti">
+
+    <div class="food-content">
+        <h3>Butter Tandoori Roti</h3>
+        <p class="price">₹20</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Butter Tandoori Roti',20,-1)">−</button>
+            <span id="qty-Butter Tandoori Roti">0</span>
+            <button onclick="changeQty('Butter Tandoori Roti',20,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PLAIN PARATHA -->
+<div class="food roti">
+    <img src="Plain-Paratha.png" alt="Plain Paratha">
+
+    <div class="food-content">
+        <h3>Plain Paratha</h3>
+        <p class="price">₹25</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Plain Paratha',25,-1)">−</button>
+            <span id="qty-Plain Paratha">0</span>
+            <button onclick="changeQty('Plain Paratha',25,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- BUTTER PARATHA -->
+<div class="food roti">
+    <img src="Butter-Paratha.png" alt="Butter Paratha">
+
+    <div class="food-content">
+        <h3>Butter Paratha</h3>
+        <p class="price">₹30</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Butter Paratha',30,-1)">−</button>
+            <span id="qty-Butter Paratha">0</span>
+            <button onclick="changeQty('Butter Paratha',30,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- BUTTER LACHHA PARATHA -->
+<div class="food roti">
+    <img src="Butter-Lachha-Paratha.png" alt="Butter Lachha Paratha">
+
+    <div class="food-content">
+        <h3>Butter Lachha Paratha</h3>
+        <p class="price">₹50</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Butter Lachha Paratha',50,-1)">−</button>
+            <span id="qty-Butter Lachha Paratha">0</span>
+            <button onclick="changeQty('Butter Lachha Paratha',50,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- VEG HAKKA NOODLES -->
+<div class="food chinese">
+    <img src="Veg-Hakka-Noodles.png" alt="Veg Hakka Noodles">
+
+    <div class="food-content">
+        <h3>Veg Hakka Noodles</h3>
+        <p class="price">₹120</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Veg Hakka Noodles',120,-1)">−</button>
+            <span id="qty-Veg Hakka Noodles">0</span>
+            <button onclick="changeQty('Veg Hakka Noodles',120,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- VEG FRIED RICE -->
+<div class="food chinese">
+    <img src="Veg-Fried-Rice.png" alt="Veg Fried Rice">
+
+    <div class="food-content">
+        <h3>Veg Fried Rice</h3>
+        <p class="price">₹120</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Veg Fried Rice',120,-1)">−</button>
+            <span id="qty-Veg Fried Rice">0</span>
+            <button onclick="changeQty('Veg Fried Rice',120,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- VEG MANCHURIAN -->
+<div class="food chinese">
+    <img src="Veg-Manchurian.png" alt="Veg Manchurian">
+
+    <div class="food-content">
+        <h3>Veg Manchurian</h3>
+        <p class="price">₹120</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Veg Manchurian',120,-1)">−</button>
+            <span id="qty-Veg Manchurian">0</span>
+            <button onclick="changeQty('Veg Manchurian',120,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- PANEER CHILLI DRY -->
+<div class="food chinese">
+    <img src="Paneer-Chilli-Dry.png" alt="Paneer Chilli Dry">
+
+    <div class="food-content">
+        <h3>Paneer Chilli Dry</h3>
+        <p class="price">₹150</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Paneer Chilli Dry',150,-1)">−</button>
+            <span id="qty-Paneer Chilli Dry">0</span>
+            <button onclick="changeQty('Paneer Chilli Dry',150,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- EGG FRIED RICE -->
+<div class="food chinese">
+    <img src="Egg-Fried-Rice.png" alt="Egg Fried Rice">
+
+    <div class="food-content">
+        <h3>Egg Fried Rice</h3>
+        <p class="price">₹140</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Egg Fried Rice',140,-1)">−</button>
+            <span id="qty-Egg Fried Rice">0</span>
+            <button onclick="changeQty('Egg Fried Rice',140,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN CHILLI DRY -->
+<div class="food chinese">
+    <img src="Chicken-Chilli-Dry.png" alt="Chicken Chilli Dry">
+
+    <div class="food-content">
+        <h3>Chicken Chilli Dry</h3>
+        <p class="price">₹150</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Chilli Dry',150,-1)">−</button>
+            <span id="qty-Chicken Chilli Dry">0</span>
+            <button onclick="changeQty('Chicken Chilli Dry',150,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN LOLLIPOP DRY -->
+<div class="food chinese">
+    <img src="Chicken-Lollipop-Dry.png" alt="Chicken Lollipop Dry">
+
+    <div class="food-content">
+        <h3>Chicken Lollipop Dry</h3>
+        <p class="price">₹120</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Lollipop Dry',120,-1)">−</button>
+            <span id="qty-Chicken Lollipop Dry">0</span>
+            <button onclick="changeQty('Chicken Lollipop Dry',120,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHICKEN CHILLI GRAVY -->
+<div class="food chinese">
+    <img src="Chicken-Chilli-Gravy.png" alt="Chicken Chilli Gravy">
+
+    <div class="food-content">
+        <h3>Chicken Chilli Gravy</h3>
+        <p class="price">₹150</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Chilli Gravy',150,-1)">−</button>
+            <span id="qty-Chicken Chilli Gravy">0</span>
+            <button onclick="changeQty('Chicken Chilli Gravy',150,1)">+</button>
+        </div>
+    </div>
+</div><!-- CHICKEN FRIED RICE -->
+<div class="food chinese">
+    <img src="Chicken-Fried-Rice.png" alt="Chicken Fried Rice">
+
+    <div class="food-content">
+        <h3>Chicken Fried Rice</h3>
+        <p class="price">₹140</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Fried Rice',140,-1)">−</button>
+            <span id="qty-Chicken Fried Rice">0</span>
+            <button onclick="changeQty('Chicken Fried Rice',140,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- CHINESE BHEL -->
+<div class="food chinese">
+    <img src="Chinese-Bhel.png" alt="Chinese Bhel">
+
+    <div class="food-content">
+        <h3>Chinese Bhel</h3>
+        <p class="price">₹160</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chinese Bhel',160,-1)">−</button>
+            <span id="qty-Chinese Bhel">0</span>
+            <button onclick="changeQty('Chinese Bhel',160,1)">+</button>
+        </div>
+    </div>
+</div>
+<!-- TANDOORI CHICKEN -->
+<div class="food chicken">
+    <img src="Tandoori-Chicken.png" alt="Tandoori Chicken">
+
+    <div class="food-content">
+        <h3>Tandoori Chicken</h3>
+
+        <p class="price">Half ₹200 | Full ₹370</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Tandoori Chicken Half',200,-1)">−</button>
+            <span id="qty-Tandoori Chicken Half">0</span>
+            <button onclick="changeQty('Tandoori Chicken Half',200,1)">+</button>
+        </div>
+
+        <div class="qty" style="margin-top:10px;">
+            <button onclick="changeQty('Tandoori Chicken Full',370,-1)">−</button>
+            <span id="qty-Tandoori Chicken Full">0</span>
+            <button onclick="changeQty('Tandoori Chicken Full',370,1)">+</button>
+        </div>
+    </div>
+</div>
+
+<!-- CHICKEN TIKKA DRY -->
+<div class="food chicken">
+    <img src="Chicken-Tikka-Dry.png" alt="Chicken Tikka Dry">
+
+    <div class="food-content">
+        <h3>Chicken Tikka Dry</h3>
+
+        <p class="price">₹180</p>
+
+        <div class="qty">
+            <button onclick="changeQty('Chicken Tikka Dry',180,-1)">−</button>
+            <span id="qty-Chicken Tikka Dry">0</span>
+            <button onclick="changeQty('Chicken Tikka Dry',180,1)">+</button>
+        </div>
+    </div>
+</div>
 <!-- CHICKEN 65 -->
 
 <div class="food chinese">
@@ -253,10 +1597,6 @@ placeholder="📞 Mobile Number">
 id="custAddress"
 placeholder="📍 Delivery Address"></textarea>
 
-<a class="order-btn"
-href="javascript:sendWhatsApp()">
-💬 Order on WhatsApp
-</a>
 
 </div>
 
@@ -292,7 +1632,36 @@ href="tel:8866222298">
 </a>
 
 </div>
+<section class="google-reviews">
 
+<h2>⭐ Google Reviews</h2>
+
+<p>
+We value your feedback. Please rate and review Kathmandu Restaurant on Google.
+</p>
+
+<div class="review-buttons">
+
+<a href="https://maps.app.goo.gl/VLT8uRXmMa5SYznZ9"
+target="_blank"
+class="review-btn">
+⭐ View Google Reviews
+</a>
+
+<a href="https://maps.app.goo.gl/VLT8uRXmMa5SYznZ9"
+target="_blank"
+class="review-btn write-review">
+✍️ Write a Review
+</a>
+
+</div>
+<div class="rating-box">
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <div class="rating-text">
+        <strong>4.9/5</strong> • 100+ Happy Customers
+    </div>
+</div>
+</section>
 </aside>
 
 </div>
@@ -318,9 +1687,6 @@ Order on WhatsApp
 
 </div>
 
-<!-- IMPORTANT -->
-<!-- Yahan se niche apne purane JavaScript ko paste kariye -->
-<!-- let cart={} se lekar </script> tak -->
 <script>
 // ===== Kathmandu Restaurant Cart =====
 
