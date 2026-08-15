@@ -176,20 +176,25 @@ header h1{
     font-weight:bold;
 }
 
-.food::before{
-    content:"⭐ Best Seller";
-    position:absolute;
-    top:12px;
-    left:-38px;
-    width:140px;
-    text-align:center;
-    background:#ff9800;
-    color:#fff;
-    font-size:12px;
-    font-weight:bold;
-    padding:6px 0;
-    transform:rotate(-45deg);
-    z-index:5;
+.food::before {
+    content: "";
+}
+
+/* BEST SELLER — सिर्फ Kathmandu Special Veg */
+.food.kathmandu-special::before {
+    content: "⭐ Best Seller";
+    position: absolute;
+    top: 12px;
+    left: -38px;
+    width: 140px;
+    text-align: center;
+    background: #ff9800;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 0;
+    transform: rotate(-45deg);
+    z-index: 5;
 }
 /* ===== Customer Details ===== */
 
@@ -433,4 +438,77 @@ h2:first-child{
 
 .call-btn{
     background:#25D366;
+}
+.google-reviews{
+    width:90%;
+    margin:20px auto;
+    padding:20px;
+    background:#fff;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+}
+
+.google-reviews h2{
+    color:#b30000;
+    margin-bottom:10px;
+    font-size:26px;
+}
+
+.google-reviews p{
+    color:#555;
+    margin-bottom:18px;
+    font-size:16px;
+}
+
+.review-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.review-btn{
+    display:block;
+    text-decoration:none;
+    background:#4285F4;
+    color:#fff;
+    padding:14px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.write-review{
+    background:#34A853;
+}
+
+.review-btn:hover{
+    opacity:.9;
+}
+.rating-box{
+    background:#fff8e1;
+    border:2px solid #ffd54f;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    margin:15px 0;
+}
+
+.stars{
+    font-size:28px;
+    margin-bottom:8px;
+}
+
+.rating-text{
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+}
+.category-title{
+    width:100%;
+    grid-column:1 / -1;
+    font-size:32px;
+    font-weight:bold;
+    margin:20px 0 10px;
+    color:#333;
 }
